@@ -19,7 +19,7 @@ You'll need an OpenAI model deployed through Azure AI Foundry. Follow the offici
 - **Deploy OpenAI Models**: [Deploy models from the Azure AI Foundry model catalog](https://learn.microsoft.com/en-us/azure/ai-foundry/how-to/deploy-models-openai)
 
   Supported models include GPT-4, GPT-4o, and GPT-3.5-Turbo with logprobs support.
-  
+
 - **Get Deployment Details**: 
   
   You can find your endpoint and key in the Azure AI Foundry portal under your deployment details:
@@ -73,7 +73,7 @@ Both options automatically:
 Create a `.env` file in the root directory with your Azure AI Foundry deployment credentials:
 
 ```env
-AOAI_ENDPOINT="https://your-foundry-resource.openai.azure.com"
+AOAI_ENDPOINT="https://your-foundry-resource.cognitiveservices.azure.com"
 AOAI_KEY="your-api-key-here"
 AOAI_DEPLOYMENT="your-deployment-name"
 ```
