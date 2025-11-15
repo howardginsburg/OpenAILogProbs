@@ -90,8 +90,9 @@ You can find these values in Azure AI Foundry portal under your deployments sect
 
 3. Modify the prompt in the final cell to explore different queries:
    ```python
+   temperature = 0.7  # Control randomness (0=deterministic, 1=creative)
    prompt = "Your question here?"
-   response, token_probs = get_model_response(client, prompt, deployment_name)
+   response, token_probs = get_model_response(client, prompt, deployment_name, temperature)
    ```
 
 ## Understanding the Output
