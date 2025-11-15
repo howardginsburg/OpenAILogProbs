@@ -15,11 +15,18 @@ This repository provides Jupyter notebooks for exploring and visualizing log pro
 
 You'll need an OpenAI model deployed through Azure AI Foundry. Follow the official documentation to set up your deployment:
 
-- **Create Azure AI Foundry Resource**: [Create and manage Azure AI Foundry resources](https://learn.microsoft.com/en-us/azure/ai-studio/how-to/create-azure-ai-resource)
-- **Deploy OpenAI Models**: [Deploy models from the Azure AI Foundry model catalog](https://learn.microsoft.com/en-us/azure/ai-studio/how-to/deploy-models-openai)
-- **Get Deployment Details**: [Use Azure OpenAI models in Azure AI Foundry](https://learn.microsoft.com/en-us/azure/ai-studio/how-to/deploy-models-openai)
+- **Create Azure AI Foundry Resource**: [Create and manage Azure AI Foundry resources](https://learn.microsoft.com/en-us/azure/ai-services/multi-service-resource)
+- **Deploy OpenAI Models**: [Deploy models from the Azure AI Foundry model catalog](https://learn.microsoft.com/en-us/azure/ai-foundry/how-to/deploy-models-openai)
 
-Supported models include GPT-4, GPT-4o, and GPT-3.5-Turbo with logprobs support.
+  Supported models include GPT-4, GPT-4o, and GPT-3.5-Turbo with logprobs support.
+  
+- **Get Deployment Details**: 
+  
+  You can find your endpoint and key in the Azure AI Foundry portal under your deployment details:
+  
+  ![Endpoint and Key location](images/endpointcredentials.png)
+
+
 
 ## Setup
 
@@ -104,7 +111,7 @@ The `aoai_logprobs.ipynb` notebook is based on work by [Yanan Cai](https://githu
 ## Resources
 
 - [GitHub Codespaces Documentation](https://docs.github.com/en/codespaces)
-- [Azure AI Foundry Documentation](https://learn.microsoft.com/en-us/azure/ai-studio/)
-- [Deploy OpenAI models in Azure AI Foundry](https://learn.microsoft.com/en-us/azure/ai-studio/how-to/deploy-models-openai)
+- [Azure AI Foundry Documentation](https://learn.microsoft.com/en-us/azure/ai-foundry/)
+- [Deploy OpenAI models in Azure AI Foundry](https://learn.microsoft.com/en-us/azure/ai-foundry/how-to/deploy-models-openai)
 - [Azure OpenAI Service Documentation](https://learn.microsoft.com/en-us/azure/ai-services/openai/)
 - [Understanding Log Probabilities](https://platform.openai.com/docs/guides/text-generation/log-probabilities)
