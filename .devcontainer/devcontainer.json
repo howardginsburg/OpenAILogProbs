@@ -13,7 +13,7 @@
 	},
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "pip install --upgrade pip && pip install openai termcolor",
+	//"postCreateCommand": "pip install --upgrade pip && pip install openai termcolor",
 
 	// Configure tool-specific properties.
 	"customizations": {
